@@ -1,7 +1,7 @@
 package com.petclinic.bootstrap;
 
 import model.Owner;
-import model.Person;
+import model.PetType;
 import model.Vet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -11,6 +11,7 @@ import org.springframework.context.annotation.PropertySources;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 import services.OwnerService;
+import services.PetTypeService;
 import services.VetService;
 
 // kada Spring Context uoci ovu komponentu videce da implementira CommnandLineRunner
@@ -26,6 +27,7 @@ public class DataLoader implements CommandLineRunner {
     public Environment environment;
     private final OwnerService ownerService;
     private final VetService vetService;
+    private final PetTypeService petTypeService;
 
 
     @Value("${guru.owner.name}")
@@ -45,13 +47,23 @@ public class DataLoader implements CommandLineRunner {
     private String surname3;
 
 
-    public DataLoader(OwnerService ownerService, VetService vetService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
+        this.petTypeService = petTypeService;
     }
 
     @Override
     public void run(String... args) throws Exception {
+
+        PetType dog = new PetType();
+        dog.setName("Dog");
+        PetType savedDogType = petTypeService.save(dog);
+
+        PetType cat = new PetType();
+        cat.setName("Cat");
+        PetType savedCatType = petTypeService.save(cat);
+
 
         /** Owners podaci iz eksternog fajla **/
         Owner owner1 = new Owner();
