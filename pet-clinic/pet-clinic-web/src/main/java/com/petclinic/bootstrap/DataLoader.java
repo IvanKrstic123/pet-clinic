@@ -69,12 +69,18 @@ public class DataLoader implements CommandLineRunner {
         Owner owner1 = new Owner();
         owner1.setFirstName(name);
         owner1.setLastName(surname);
+        owner1.setAdress("Gorazdevac 239");
+        owner1.setCity("Pec");
+        owner1.setTelephone("123-456-789");
 
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
         owner2.setFirstName(name2);
         owner2.setLastName(surname2);
+        owner1.setAdress("Gorazdevac 240");
+        owner1.setCity("Pec");
+        owner1.setTelephone("123-777-789");
 
         ownerService.save(owner2);
 
@@ -82,6 +88,9 @@ public class DataLoader implements CommandLineRunner {
         Owner owner3 = new Owner();
         owner3.setFirstName(environment.getProperty("name"));
         owner3.setLastName(environment.getProperty("surname"));
+        owner1.setAdress("Gorazdevac 241");
+        owner1.setCity("Pec");
+        owner1.setTelephone("123-111-789");
 
         ownerService.save(owner3);
 
@@ -89,6 +98,9 @@ public class DataLoader implements CommandLineRunner {
         Owner owner4 = new Owner();
         owner4.setFirstName(name3);
         owner4.setLastName(surname3);
+        owner1.setAdress("Gorazdevac 242");
+        owner1.setCity("Pec");
+        owner1.setTelephone("457-456-789");
 
         ownerService.save(owner4);
 
