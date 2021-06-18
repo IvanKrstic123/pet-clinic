@@ -1,14 +1,13 @@
 package com.petclinic;
 
 import com.petclinic.bootstrap.DataLoader;
-import com.petclinic.controllers.OwnerController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
-import services.map.OwnerServiceMap;
+import services.springdatajpa.OwnerSDJpaService;
 
 @SpringBootApplication
-@ComponentScan(basePackageClasses = {OwnerController.class, OwnerServiceMap.class, DataLoader.class})
+@ComponentScan(basePackageClasses = {OwnerRepo.class, DataLoader.class, OwnerSDJpaService.class})
 public class PetClinicApplication {
 
 	public static void main(String[] args) {

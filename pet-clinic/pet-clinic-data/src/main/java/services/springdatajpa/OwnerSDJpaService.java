@@ -1,8 +1,10 @@
 package services.springdatajpa;
 
 import model.Owner;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
+import repositories.OwnerRepository;
 import services.OwnerService;
 
 import java.util.Set;
@@ -11,39 +13,39 @@ import java.util.Set;
 @Profile("springdatajpa")
 public class OwnerSDJpaService implements OwnerService {
 
-    private final OwnerService ownerService;
+    private final OwnerRepository ownerRepository;
 
-    public OwnerSDJpaService(OwnerService ownerService) {
-        this.ownerService = ownerService;
+    public OwnerSDJpaService(OwnerRepository ownerRepository) {
+        this.ownerRepository = ownerRepository;
     }
 
     @Override
     public Owner findByLastName(String lastName) {
-        return ownerService.findByLastName(lastName);
+        return ownerRepository.findByLastName(lastName);
     }
 
     @Override
     public Set<Owner> findAll() {
-        return ownerService.findAll();
+        return (Set<Owner>) ownerRepository.findAll();
     }
 
     @Override
     public Owner findById(Long aLong) {
-        return ownerService.findById(aLong);
+        return ownerRepository.findById(aLong).orElse(null);
     }
 
     @Override
     public Owner save(Owner object) {
-        return ownerService.save(object);
+        return ownerRepository.save(object);
     }
 
     @Override
     public void delete(Owner object) {
-        ownerService.delete(object);
+        ownerRepository.delete(object);
     }
 
     @Override
     public void deleteById(Long aLong) {
-        ownerService.deleteById(aLong);
+        ownerRepository.deleteById(aLong);
     }
 }
