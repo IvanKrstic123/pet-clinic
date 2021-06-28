@@ -1,7 +1,10 @@
 package com.petclinic.controllers;
 
+<<<<<<< HEAD
 import model.Owner;
 import org.springframework.context.annotation.Lazy;
+=======
+>>>>>>> e55d53f3cee17669ca8d5a824398f1a8bbbaab37
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

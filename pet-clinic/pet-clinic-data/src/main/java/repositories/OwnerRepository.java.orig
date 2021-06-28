@@ -6,6 +6,9 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface OwnerRepository extends CrudRepository<Owner, Long> {
+<<<<<<< HEAD
+=======
 
+>>>>>>> e55d53f3cee17669ca8d5a824398f1a8bbbaab37
     Owner findByLastName(String lastName);
 }
