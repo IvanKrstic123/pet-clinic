@@ -73,6 +73,8 @@ public class DataLoader implements CommandLineRunner {
         owner1.setCity("Pec");
         owner1.setTelephone("123-456-789");
 
+        Owner.builder().id(3L).city("Gorazdevac").firstName("Ivan").lastName("Krstic").build();
+
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
