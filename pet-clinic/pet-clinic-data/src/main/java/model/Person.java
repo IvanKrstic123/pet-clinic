@@ -9,6 +9,7 @@ import javax.persistence.MappedSuperclass;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString(callSuper = true)
 @MappedSuperclass
 public class Person extends BaseEntity{
 

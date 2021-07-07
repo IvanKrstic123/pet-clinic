@@ -8,6 +8,7 @@ import java.util.Set;
 @Setter
 @Getter
 @NoArgsConstructor
+@ToString(callSuper = true)
 @Entity
 @Table(name = "owners")
 public class Owner extends Person{
@@ -31,6 +32,7 @@ public class Owner extends Person{
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")
     private Set<Pet> pets;
+
 
 
 }
