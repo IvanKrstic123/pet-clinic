@@ -1,41 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a3cebf6-46bd-4d12-81bf-36bfa8c77910" name="Default Changelist" comment="" />
+    <list default="true" id="12ff0355-2f1c-461f-9b5e-7e51c8b3afc9" name="Default Changelist" comment="Added CRUD tests for OwnerMapService. closes #26">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/PetType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Speciality.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Vet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Visit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/OwnerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/OwnerRepository.java.orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/PetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/PetTypeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/SpecialtyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/VetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/VisitRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/CrudService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/OwnerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/PetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/PetTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/SpecialityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/VetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/VisitService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/AbstractMapService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/OwnerMapService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/PetServiceMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/PetTypeMapService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/SpecialityMapService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/VetServiceMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/VisitMapService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/OwnerSDJpaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/OwnerSDJpaService.java.orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/PetSDJpaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/PetTypeSDJpaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/SpecialtySDJpaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/VetSDJpaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/VisitSDJpaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/test/java/services/map/OwnerMapServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/test/java/services/springdatajpa/OwnerSDJpaServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/PetClinicApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/PetClinicApplication.java.orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/bootstrap/DataLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/controllers/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/controllers/OwnerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/controllers/OwnerController.java.orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/controllers/VetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/less/header.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/less/petclinic.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/less/responsive.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/less/typography.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/messages/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/messages/messages_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/messages/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/messages/messages_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/owner.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/pets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/platform-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/spring-logo-dataflow-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/spring-logo-dataflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/spring-pivotal-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/fragments/inputField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/fragments/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/fragments/selectField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/notimplemented.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/owners/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/vets/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/wro/wro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/wro/wro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/test/java/com/petclinic/PetClinicApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/test/java/com/petclinic/controllers/OwnerControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic/pom.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1u7TNVVLlcpy5AQwFyAhhF3AZyD" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1uxkh7PXJOpZ7Hn28h9rcaE1lsW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.grazie" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.petclinic.controllers" />
+      <recent name="services.springdatajpa" />
+      <recent name="services.map" />
+      <recent name="com.petclinic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PetClinicApplication">
+    <configuration name="PetClinicApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.petclinic.PetClinicApplication" />
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.petclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.petclinic.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.petclinic.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.petclinic.controllers.OwnerControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerControllerTest.listOwners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.petclinic.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.petclinic.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.petclinic.controllers.OwnerControllerTest" />
+      <option name="METHOD_NAME" value="listOwners" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerSDJpaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.springdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="services.springdatajpa.OwnerSDJpaServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerSDJpaServiceTest.findByIdNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.springdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="services.springdatajpa.OwnerSDJpaServiceTest" />
+      <option name="METHOD_NAME" value="findByIdNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PetClinicApplication" />
+        <item itemvalue="JUnit.OwnerControllerTest" />
+        <item itemvalue="JUnit.OwnerControllerTest.listOwners" />
+        <item itemvalue="JUnit.OwnerSDJpaServiceTest" />
+        <item itemvalue="JUnit.OwnerSDJpaServiceTest.findByIdNotFound" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9a3cebf6-46bd-4d12-81bf-36bfa8c77910" name="Default Changelist" comment="" />
-      <created>1624015588006</created>
+      <changelist id="12ff0355-2f1c-461f-9b5e-7e51c8b3afc9" name="Default Changelist" comment="" />
+      <created>1625614748371</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624015588006</updated>
+      <updated>1625614748371</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added CRUD tests for OwnerMapService. closes #26">
+      <created>1625619695309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625619695309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="549" y="130" key="FileChooserDialogImpl" timestamp="1624015638843">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="130" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1624015638843" />
-    <state x="439" y="117" key="NewModule_or_Project.wizard" timestamp="1624015640120">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="439" y="117" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1624015640120" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added CRUD tests for OwnerMapService. closes #26" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CRUD tests for OwnerMapService. closes #26" />
   </component>
 </project>
