@@ -5,101 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12ff0355-2f1c-461f-9b5e-7e51c8b3afc9" name="Default Changelist" comment="Added CRUD tests for OwnerMapService. closes #26">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/.circleci/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Owner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Pet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/PetType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Speciality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Vet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/model/Visit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/OwnerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/OwnerRepository.java.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/PetRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/PetTypeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/SpecialtyRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/VetRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/repositories/VisitRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/CrudService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/OwnerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/PetService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/PetTypeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/SpecialityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/VetService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/VisitService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/AbstractMapService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/OwnerMapService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/PetServiceMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/PetTypeMapService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/SpecialityMapService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/VetServiceMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/map/VisitMapService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/OwnerSDJpaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/OwnerSDJpaService.java.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/PetSDJpaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/PetTypeSDJpaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/SpecialtySDJpaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/VetSDJpaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/main/java/services/springdatajpa/VisitSDJpaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/test/java/services/map/OwnerMapServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-data/src/test/java/services/springdatajpa/OwnerSDJpaServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/PetClinicApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/PetClinicApplication.java.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/bootstrap/DataLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/controllers/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/controllers/OwnerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/controllers/OwnerController.java.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/java/com/petclinic/controllers/VetController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/less/header.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/less/petclinic.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/less/responsive.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/less/typography.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/messages/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/messages/messages_de.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/messages/messages_en.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/messages/messages_fr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/owner.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/pets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/platform-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/spring-logo-dataflow-mobile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/spring-logo-dataflow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/static/resources/images/spring-pivotal-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/fragments/inputField.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/fragments/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/fragments/selectField.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/notimplemented.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/owners/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/resources/templates/vets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/wro/wro.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/main/wro/wro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/test/java/com/petclinic/PetClinicApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pet-clinic-web/src/test/java/com/petclinic/controllers/OwnerControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +44,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.grazie" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -267,7 +178,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="Added CRUD tests for OwnerMapService. closes #26" />
     <option name="LAST_COMMIT_MESSAGE" value="Added CRUD tests for OwnerMapService. closes #26" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pet_clinic$PetClinicApplication.ic" NAME="PetClinicApplication Coverage Results" MODIFIED="1625880614575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.petclinic.*</FILTER>
+    </SUITE>
   </component>
 </project>
